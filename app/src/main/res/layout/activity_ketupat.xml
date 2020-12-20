@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".maluku.KetupatActivity">
+
+<ScrollView
+    android:layout_width="413dp"
+    android:layout_height="728dp"
+    android:layout_marginTop="0dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="368dp"
+            android:layout_height="67dp"
+            android:layout_marginTop="32dp"
+            android:text="Ketupat Kandanan Maluku"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="294dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/img3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="375dp"
+            android:layout_height="406dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="Nah makanan ketiga ini merupakan makanan dari Maluku yang patut untuk dicoba. Ketupat kandangan sudah tidak asing terdengar serta sudah terkenal sampai beragam daerah.\n\nYang membedakan Ketupat Kandangan dengan Soto Banjar yaitu terletak pada kuahnya yang keruh, ketupat kandangan memiliki kuah yang lebih keruh dan ditambahkan santan untuk menambah cita rasa yang nikmat.\n\nSelain itu terkadang juga ditambahkan dengan ikan atau telur sebagai variasai lauk.\n\nAkan tetapi ketupat kandangan ini memiliki tekstur nasi yang lebih keras, meskipun demikian maka tidak akan mengurangi cita rasanya malah akan menambah kenikmatan pada ketupat tersebut."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

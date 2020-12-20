@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.kuliner">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".nusatenggara.MandaiActivity"
+            android:label="Mandai Nusa Tenggara"
+            android:parentActivityName=".nusatenggara.NusatenggaraActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".nusatenggara.NusatenggaraActivity" />
+        </activity>
+        <activity
+            android:name=".maluku.KetupatActivity"
+            android:label="Ketupat Kandangan Maluku"
+            android:parentActivityName=".maluku.MalukuActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".maluku.MalukuActivity" />
+        </activity>
+        <activity
+            android:name=".nusatenggara.NusatenggaraActivity"
+            android:label="List Kuliner Nusa Tenggara"
+            android:parentActivityName=".PulauActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PulauActivity" />
+        </activity>
+        <activity
+            android:name=".maluku.MalukuActivity"
+            android:label="List Kuliner Maluku"
+            android:parentActivityName=".PulauActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PulauActivity" />
+        </activity>
+        <activity
+            android:name=".kalimantan.SotoActivity"
+            android:label="Soto Banjar Khas Kalimantan"
+            android:parentActivityName=".kalimantan.KalimantanActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".kalimantan.KalimantanActivity" />
+        </activity>
+        <activity
+            android:name=".kalimantan.PatinActivity"
+            android:label="Patin Baubar Kalimantan"
+            android:parentActivityName=".kalimantan.KalimantanActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".kalimantan.KalimantanActivity" />
+        </activity>
+        <activity
+            android:name=".kalimantan.KalimantanActivity"
+            android:label="List Kuliner Kalimantan"
+            android:parentActivityName=".PulauActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PulauActivity" />
+        </activity>
+        <activity
+            android:name=".PulauActivity"
+            android:label="Pilih Pulau"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
